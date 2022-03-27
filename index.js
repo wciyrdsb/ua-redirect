@@ -1,5 +1,6 @@
 // noinspection JSCheckFunctionSignatures
 let url;
+const Fundraiser = "https://www.gofundme.com/f/tvkrsw-ukraine-humanitarian-appeal";
 
 /**
  * Assign a URL to redirect to
@@ -12,14 +13,19 @@ try {
             break;
         }
 
+        case ("facebook"): {
+            url = "https://www.facebook.com/sharer/sharer.php?u=wciukraine.ca";
+            break;
+        }
+
         default: {
-            url = "/"
+            url = Fundraiser;
             break;
         }
 
     }
 } catch (ex) {
-    url = "https://wciyrdsb.github.io/ua-redirect/";
+    url = Fundraiser;
 }
 
 
