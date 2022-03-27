@@ -12,7 +12,7 @@ switch (share) {
     }
 
     default: {
-        window.location.href = "/"
+        window.location.href = "https://wciyrdsb.github.io/ua-redirect/"
         break;
     }
 
