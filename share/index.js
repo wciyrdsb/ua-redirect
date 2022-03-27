@@ -4,10 +4,16 @@ const share = (
     })
 )["share"];
 
+
 switch (share) {
 
     case ("twitter"): {
-        
+        break;
+    }
+
+    default: {
+        window.location.href = "/"
+        break;
     }
 
 }
