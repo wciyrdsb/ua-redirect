@@ -1,0 +1,31 @@
+html, body {
+    height: 99%;
+}
+
+body {
+
+    background-color: #041e47;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: #c7c4c4;
+}
+
+img {
+    height: 50%;
+}
